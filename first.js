@@ -90,3 +90,39 @@ if (score >= 90 && score <= 100){
     grade= "F";
 }
 console.log("According to your score your grade was ", grade);
+                                
+
+
+let fullName = prompt ("Enter full name without spacing ");
+
+let username = "@" + fullName + fullName.length;
+console.log(username);
+
+
+//Array in js
+
+let heroes =["spiderman","ironman" , "hulk"];
+
+for (let idx=0; idx<heroes.length;idx++){
+    console.log(heroes[idx]);
+}
+
+
+let cities = ["Mumbai", "nashik", "pune", "delhi"];
+for( city of cities){
+    console.log(city.toUpperCase());
+}
+
+
+//find a avg marks of th entire class 
+
+let marks = [85,97,44,37,76,60];
+
+let sum =0;
+for (let val of marks){
+    sum += val ;
+}
+
+let avg = sum/ marks.length;
+console.log(`avg marks of the class = ${avg}`);
+
